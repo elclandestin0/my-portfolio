@@ -53,15 +53,34 @@
 
 img
 {
-  opacity: 0.2;
-  filter: alpha(opacity=50);
+  opacity: 0.1;
+  filter: alpha(opacity=20);
 }
-.top-buffer
+
+img:hover
 {
-  margin-top:50px;
+  opacity: 1.0;
+  filter: alpha(opacity=100);
 }
+
+@media (min-width: 768px)
+{
+  [class*="top-spacing"]
+  {
+    margin-top: 25px;
+  }
+}
+
 
 .project-card
 {
   width: 50%;
+}
+
+@media (max-width: 768px)
+{
+  [class*="col-"]
+  {
+      margin-bottom: 15px;
+  }
 }

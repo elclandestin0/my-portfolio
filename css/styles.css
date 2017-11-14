@@ -80,6 +80,14 @@ img:hover
   }
 }
 
+@media (max-width: 768px)
+{
+  [class*= "top-spacing"]
+  {
+    margin-top: 20px;
+  }
+}
+
 
 .project-card
 {
@@ -88,8 +96,13 @@ img:hover
 
 @media (max-width: 768px)
 {
-  [class*="col-"]
+  [class*="col-xs-"]
   {
       margin-bottom: 15px;
   }
+}
+
+.fa-linkedin-square:
+{
+  color: blue;
 }

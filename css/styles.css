@@ -21,14 +21,27 @@
 {
   text-align: center;
 }
+
+.newspaper-margin-left
+{
+  margin-left: 17.5px;
+}
+
+.newspaper-margin-right
+{
+  margin-right: 17.5px;
+}
+
+.newspaper-text-size
+{
+  font-size: 15px;
+}
+
 .right
 {
   text-align: right;
 }
-.margin-right
-{
-  margin-right: 10px;
-}
+
 
 .left
 {
@@ -62,7 +75,7 @@
 
 img
 {
-  opacity: 0.35;
+  opacity: 0.15;
   filter: alpha(opacity=20);
 }
 

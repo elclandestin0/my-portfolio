@@ -1,3 +1,15 @@
+/*
+    Code written by: Memo Khoury
+    withthe media query from a good
+    fellow @ Stack Overflow, and the
+    footer is from CSS styles[1] as well!
+
+    Footnote:
+    [1]: https://css-tricks.com/couple-takes-sticky-footer/
+
+    Last modified: November 15th, 2017 @ 10:58 PM
+*/
+
 *{
   font-family: monospace;
 }

@@ -10,145 +10,92 @@
     Last modified: November 15th, 2017 @ 10:58 PM
 */
 
-*{
-  font-family: monospace;
+* {
+    font-family: monospace;
 }
-
-html,body
-{
-  height: 100%;
-  margin: 0;
+html,
+body {
+    height: 100%;
+    margin: 0;
 }
-
-.container
-{
-  min-height: 100%;
-  margin-bottom: -50px;
+.container {
+    min-height: 100%;
+    margin-bottom: -50px;
 }
-
-.header
-{
-  font-size: 35px;
+.header {
+    font-size: 35px;
 }
-
-.mobile-text
-{
-  font-size: 20px;
+.mobile-text {
+    font-size: 20px;
 }
-
-.small-text
-{
-  font-size: 10px;
+.small-text {
+    font-size: 10px;
 }
-
-a{
-  color: gray;
+a {
+    color: gray;
 }
-
-.center
-{
-  text-align: center;
+.center {
+    text-align: center;
 }
-
-.newspaper-margin-left
-{
-  margin-left: 17.5px;
+.newspaper-margin-left {
+    margin-left: 17.5px;
 }
-
-.newspaper-margin-right
-{
-  margin-right: 17.5px;
+.newspaper-margin-right {
+    margin-right: 17.5px;
 }
-
-.newspaper-text-size
-{
-  font-size: 15px;
+.newspaper-text-size {
+    font-size: 15px;
 }
-
-.right
-{
-  text-align: right;
+.right {
+    text-align: right;
 }
-
-
-.left
-{
-  text-align: left;
+.left {
+    text-align: left;
 }
-
-.nav
-{
-  text-align: center;
+.nav {
+    text-align: center;
 }
-.fa
-{
-  font-family: "FontAwesome";
+.fa {
+    font-family: "FontAwesome";
 }
-
-.max-width
-{
-  width: 100%;
+.max-width {
+    width: 100%;
 }
-
-.wrapper
-{
-  min-height: 100%;
+.wrapper {
+    min-height: 100%;
 }
-
 .footer,
-.push
-{
-  height: 20px;
+.push {
+    height: 20px;
+}
+img {
+    opacity: 0.15;
+    filter: alpha(opacity=20);
+}
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+@media (min-width: 768px) {
+    [class*="top-spacing"] {
+        margin-top: 25px;
+    }
+}
+@media (max-width: 768px) {
+    [class* "top-spacing"] {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 768px) {
+    [class*="col-xs-"] {
+        margin-bottom: 15px;
+    }
+}
+.fa-linkedin-square: {
+    color: blue;
 }
 
-img
-{
-  opacity: 0.15;
-  filter: alpha(opacity=20);
-}
-
-img:hover
-{
-  opacity: 1.0;
-  filter: alpha(opacity=100);
-}
-
-@media (min-width: 768px)
-{
-  [class*="top-spacing"]
-  {
-    margin-top: 25px;
-  }
-}
-
-@media (max-width: 768px)
-{
-  [class*= "top-spacing"]
-  {
-    margin-top: 20px;
-  }
-}
-
-
-.project-card
-{
-  width: 50%;
-}
-
-@media (max-width: 768px)
-{
-  [class*="col-xs-"]
-  {
-      margin-bottom: 15px;
-  }
-}
-
-.fa-linkedin-square:
-{
-  color: blue;
-}
-
-.footer-margin
-{
-
+.card-stock: {
+    width: 100px;
+    height: 100px;
 }

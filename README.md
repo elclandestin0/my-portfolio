@@ -1,9 +1,8 @@
 # memo khoury's portfolio
-<strong><h1> Description </h1></strong>
+<strong><h3> Description </h3></strong>
+[!![]()]
 
 
-
-Public repository of my portfolio. 
-Launch the html/home.html from your favourite text editor, 
-and enjoy! 
-
+Public repository of my portfolio. Created with Bootstraped CSS and HTML5.
+Launch the <code>html/home.html</code> from your favourite text editor,
+and enjoy!
